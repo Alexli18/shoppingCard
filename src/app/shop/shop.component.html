@@ -1,0 +1,3 @@
+<div *ngFor="let item of items">
+    <app-shopitem [shopItem] = 'item' (addToBag) = bag($event)></app-shopitem>
+</div>

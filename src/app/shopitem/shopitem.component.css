@@ -1,0 +1,18 @@
+img{
+    width: 150px;
+    margin: 25px;
+}
+.shopItem{
+    width: 200px;
+    border: 1px solid black;
+    margin: 25px;
+}
+.addbtn{
+    width: 100%;
+}
+.price{
+    text-align: center;
+}
+.text{
+    text-align: center;
+}

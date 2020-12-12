@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "shoppingcard"
+  "defaultProject": "shoppingcard",
+  "cli": {
+    "analytics": "4aa66c3e-4ab9-48a2-89c4-55f7d75c16e1"
+  }
 }

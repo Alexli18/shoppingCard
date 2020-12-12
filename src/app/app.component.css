@@ -1,0 +1,11 @@
+.rigthSide{
+    margin-right: auto;
+    width: 50%;
+}
+.leftSide{
+    margin-left: auto;
+    width: 50%;
+}
+.container{
+    display: flex;
+}

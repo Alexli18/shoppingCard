@@ -36,6 +36,7 @@ export class BagComponent implements OnInit {
   // CR: specify type for item. Avoid using "any".
   deleteFromBag(item:any){
     const { id } = item;
+    // CR: element.id === id. Never use == or !=.
     const elementIndex = this.card.findIndex(element=>element.id==id);
     this.card.splice(elementIndex, 1);
     this.updateTotal();

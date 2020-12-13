@@ -6,13 +6,17 @@ import { Component, Output } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'shoppingcard';
 
-  card = [];
+    // CR: redundent property
+    title = 'shoppingcard';
 
-  wasChange($event:any){
-    // console.log($event);
-    this.card = $event;
-    console.log(this.card);
-  }
+    // CR: specify type for array
+    card = [];
+
+    // CR: Naming - use more specific names for funciton shoppingCartChanged($event: ShopItem[]): void
+    wasChange($event:any){
+      // console.log($event);
+      this.card = $event;
+      console.log(this.card);
+    }
 }

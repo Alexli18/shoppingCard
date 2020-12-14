@@ -10,7 +10,9 @@ export class ShopitemComponent implements OnInit {
   name = '';
   price = '';
   constructor() { }
+  // CR: Use ShopItem interface. Avoid using "any"
   @Input() shopItem: any;
+  // CR: specify type for EventEmitter - new EventEmitter<ShopItem>()
   @Output() addToBag = new EventEmitter();
 
   ngOnInit(): void {
